@@ -4,7 +4,7 @@
   "description": "A practical code test for prospective software engineers",
   "main": "src/index.js",
   "engines": {
-    "node": "^10.16.0"
+    "node": "12.14.1"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -14,7 +14,7 @@
     "dev": "parallelshell \"yarn watch\" \"yarn watch:build\"",
     "lint": "eslint src",
     "test": "nodemon -q -x 'yarn test:unit --silent'",
-    "test:unit": "tape src/**/*.spec.js | tap-difflet",
+    "test:unit": "tape nitracker/src/**/*.spec.js | tap-difflet",
     "test:feature": "cucumber-js test/features",
     "ci": "yarn && yarn lint && yarn test:unit && yarn test:feature"
   },
