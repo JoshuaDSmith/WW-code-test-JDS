@@ -1,3 +1,4 @@
+/* Styling for the NICalculator is below */
 body {
   background-image: url("../michael-longmire-lhltMGdohc8-unsplash.jpg");
   object-fit: contain;
@@ -6,12 +7,12 @@ body {
   object-fit: fill;
   width: 100vw;
   height: 100vh;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 .container section {
   background-color: teal;
   width: 500px;
-  height: 300px;
+  height: 301px;
   margin-left: 30%;
   justify-self: center;
   text-align: center;

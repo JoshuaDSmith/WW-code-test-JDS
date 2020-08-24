@@ -22,7 +22,7 @@ function App() {
     let floor = 702; //minimum taxable amount
     let ceiling = 3863; //maximum taxable amount before additional rate applies
     let rate = 0.88; // 12% progressive increase past minimum taxable amount
-    let additionalRate = 0.02; //additional rate once ceiling has been met
+    let additionalRate = 0.02; //additional rate once ceiling has been met.
     let newValue = slice(floor, ceiling, num);
 
     let checker = newValue.d.shift(newValue.d);
